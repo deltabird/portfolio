@@ -16,3 +16,56 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+
+/*******************
+
+About
+
+*****************/
+
+/* changes to About ID */
+/* auto to make it responsive on mobiel vers. */
+
+#about {
+  margin: 60px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+/********
+
+changes to classes that also have the about ID
+
+********/
+#about img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+#about .name {
+  font-size: 20px;
+}
+
+#about .job {
+  font-size: 18px;
+  color: rgba(117, 134, 125, 0.9);
+  margin-bottom: 10px;
+}
+
+#about .skills {
+  font-size: 14px;
+  color: rgba(0, 138, 30, 0.9);
+  margin-bottom: 10px;
+}
+
+#about .email {
+  font-size: 14px;
+  color: rgb(66, 66, 66);
+  margin-top: 10px;
+}
+
+#about .icons {
+  font-size: 20px;
+  margin: 10px;
+}
